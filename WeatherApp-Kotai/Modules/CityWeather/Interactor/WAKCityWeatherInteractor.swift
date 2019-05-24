@@ -32,7 +32,7 @@ class WAKCityWeatherInteractor: PresentorToInterectorProtocol{
     
     func alamoRequest(url: String) {
         
-        Alamofire.request(url).responseJSON { response in
+        Alamofire.request(url).responseJSON { [unowned self] response in
             
             if(response.response?.statusCode == 200){
                 
@@ -46,8 +46,9 @@ class WAKCityWeatherInteractor: PresentorToInterectorProtocol{
             else {
                 
                 if (response.error != nil) { print("Response error: \(response.error!)") }
-                print("Response error: \(response.response)")
+
                 self.presenter?.liveWeatherFetchedFailed();
+                
             }
         }
         

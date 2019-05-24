@@ -13,10 +13,11 @@ extension UIImageView {
     public func imageFromUrl(urlString: String, fadeIn: Bool) {
         Alamofire.request(urlString, method: .get)
             .validate()
-            .responseData(completionHandler: { (responseData) in
-                self.image = UIImage(data: responseData.data!)
+            .responseData(completionHandler: { [unowned self] (responseData) in
                 
+                self.image = UIImage(data: responseData.data!)
                 if (fadeIn) { self.fadeIn() }
+                
             })
     }
 }
