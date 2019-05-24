@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077EA44D2296F21600723446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA44C2296F21600723446 /* AppDelegate.swift */; };
+		077EA4542296F21700723446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077EA4532296F21700723446 /* Assets.xcassets */; };
+		077EA4572296F21700723446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077EA4552296F21700723446 /* LaunchScreen.storyboard */; };
+		077EA4622296F21700723446 /* WeatherApp_KotaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4612296F21700723446 /* WeatherApp_KotaiTests.swift */; };
+		077EA46F2296FCA000723446 /* WAKProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA46E2296FCA000723446 /* WAKProtocols.swift */; };
+		077EA47A2296FE1D00723446 /* WAKBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4792296FE1D00723446 /* WAKBaseModel.swift */; };
+		077EA47C2297002100723446 /* WAKCityWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA47B2297002100723446 /* WAKCityWeatherModel.swift */; };
+		077EA47E229707C600723446 /* WAKCityWeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA47D229707C600723446 /* WAKCityWeatherPresenter.swift */; };
+		077EA48022970D5C00723446 /* WAKCityWeatherRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA47F22970D5C00723446 /* WAKCityWeatherRouter.swift */; };
+		077EA48222970DA500723446 /* WAKCityWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA48122970DA500723446 /* WAKCityWeatherViewController.swift */; };
+		077EA48422970E4600723446 /* WAKCityWeatherInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA48322970E4600723446 /* WAKCityWeatherInteractor.swift */; };
+		077EA4862297121700723446 /* WAKCityWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4852297121700723446 /* WAKCityWeatherView.swift */; };
+		077EA4892297148100723446 /* WAKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4882297148100723446 /* WAKConstants.swift */; };
+		077EA48C229715B800723446 /* UIView+FrameHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA48B229715B800723446 /* UIView+FrameHelpers.swift */; };
+		077EA48E229719D700723446 /* WAKFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA48D229719D700723446 /* WAKFonts.swift */; };
+		077EA49122971D9C00723446 /* WAKLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA49022971D9C00723446 /* WAKLocationManager.swift */; };
+		077EA4932297411000723446 /* UIScrollView+FrameHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4922297411000723446 /* UIScrollView+FrameHelpers.swift */; };
+		077EA4952297417F00723446 /* UIView+BasicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4942297417F00723446 /* UIView+BasicAnimations.swift */; };
+		077EA497229741D800723446 /* WAKEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA496229741D800723446 /* WAKEnums.swift */; };
+		077EA4992297455F00723446 /* UIImageView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4982297455F00723446 /* UIImageView+Loading.swift */; };
+		077EA49C22975FAE00723446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077EA49A22975FAE00723446 /* Main.storyboard */; };
+		077EA4A12297AB9000723446 /* WAKFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA4A02297AB9000723446 /* WAKFunctions.swift */; };
+		6FB38C64DBF4D6BD06973251 /* Pods_WeatherApp_Kotai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FFB4A5B5D7BF2936381E32 /* Pods_WeatherApp_Kotai.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077EA45E2296F21700723446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077EA4412296F21500723446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077EA4482296F21500723446;
+			remoteInfo = "WeatherApp-Kotai";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077EA4492296F21600723446 /* WeatherApp-Kotai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherApp-Kotai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077EA44C2296F21600723446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077EA4532296F21700723446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077EA4562296F21700723446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077EA4582296F21700723446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077EA45D2296F21700723446 /* WeatherApp-KotaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeatherApp-KotaiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077EA4612296F21700723446 /* WeatherApp_KotaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp_KotaiTests.swift; sourceTree = "<group>"; };
+		077EA4632296F21700723446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077EA46E2296FCA000723446 /* WAKProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKProtocols.swift; sourceTree = "<group>"; };
+		077EA4792296FE1D00723446 /* WAKBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKBaseModel.swift; sourceTree = "<group>"; };
+		077EA47B2297002100723446 /* WAKCityWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKCityWeatherModel.swift; sourceTree = "<group>"; };
+		077EA47D229707C600723446 /* WAKCityWeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKCityWeatherPresenter.swift; sourceTree = "<group>"; };
+		077EA47F22970D5C00723446 /* WAKCityWeatherRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKCityWeatherRouter.swift; sourceTree = "<group>"; };
+		077EA48122970DA500723446 /* WAKCityWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKCityWeatherViewController.swift; sourceTree = "<group>"; };
+		077EA48322970E4600723446 /* WAKCityWeatherInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKCityWeatherInteractor.swift; sourceTree = "<group>"; };
+		077EA4852297121700723446 /* WAKCityWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKCityWeatherView.swift; sourceTree = "<group>"; };
+		077EA4882297148100723446 /* WAKConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKConstants.swift; sourceTree = "<group>"; };
+		077EA48B229715B800723446 /* UIView+FrameHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+FrameHelpers.swift"; sourceTree = "<group>"; };
+		077EA48D229719D700723446 /* WAKFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKFonts.swift; sourceTree = "<group>"; };
+		077EA49022971D9C00723446 /* WAKLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKLocationManager.swift; sourceTree = "<group>"; };
+		077EA4922297411000723446 /* UIScrollView+FrameHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+FrameHelpers.swift"; sourceTree = "<group>"; };
+		077EA4942297417F00723446 /* UIView+BasicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+BasicAnimations.swift"; sourceTree = "<group>"; };
+		077EA496229741D800723446 /* WAKEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKEnums.swift; sourceTree = "<group>"; };
+		077EA4982297455F00723446 /* UIImageView+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Loading.swift"; sourceTree = "<group>"; };
+		077EA49B22975FAE00723446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077EA4A02297AB9000723446 /* WAKFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKFunctions.swift; sourceTree = "<group>"; };
+		09B18BE85F9EC9E787489182 /* Pods-WeatherApp-Kotai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-Kotai.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp-Kotai/Pods-WeatherApp-Kotai.release.xcconfig"; sourceTree = "<group>"; };
+		4D5FBAAE39822920FF009DF8 /* Pods-WeatherApp-Kotai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-Kotai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp-Kotai/Pods-WeatherApp-Kotai.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D3E4FC7F2D7D345A059BEC /* Pods_WeatherApp_KotaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_KotaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FFB4A5B5D7BF2936381E32 /* Pods_WeatherApp_Kotai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_Kotai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077EA4462296F21500723446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB38C64DBF4D6BD06973251 /* Pods_WeatherApp_Kotai.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077EA45A2296F21700723446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06768E9116D232D33EC85952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FFB4A5B5D7BF2936381E32 /* Pods_WeatherApp_Kotai.framework */,
+				C1D3E4FC7F2D7D345A059BEC /* Pods_WeatherApp_KotaiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		077EA4402296F21500723446 = {
+			isa = PBXGroup;
+			children = (
+				077EA44B2296F21600723446 /* WeatherApp-Kotai */,
+				077EA4602296F21700723446 /* WeatherApp-KotaiTests */,
+				077EA44A2296F21600723446 /* Products */,
+				D0C56D112C45A280451D089C /* Pods */,
+				06768E9116D232D33EC85952 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		077EA44A2296F21600723446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4492296F21600723446 /* WeatherApp-Kotai.app */,
+				077EA45D2296F21700723446 /* WeatherApp-KotaiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077EA44B2296F21600723446 /* WeatherApp-Kotai */ = {
+			isa = PBXGroup;
+			children = (
+				077EA46C2296F24A00723446 /* Modules */,
+				077EA46D2296F2E200723446 /* Common */,
+				077EA44C2296F21600723446 /* AppDelegate.swift */,
+				077EA4532296F21700723446 /* Assets.xcassets */,
+				077EA4552296F21700723446 /* LaunchScreen.storyboard */,
+				077EA49A22975FAE00723446 /* Main.storyboard */,
+				077EA4582296F21700723446 /* Info.plist */,
+			);
+			path = "WeatherApp-Kotai";
+			sourceTree = "<group>";
+		};
+		077EA4602296F21700723446 /* WeatherApp-KotaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4612296F21700723446 /* WeatherApp_KotaiTests.swift */,
+				077EA4632296F21700723446 /* Info.plist */,
+			);
+			path = "WeatherApp-KotaiTests";
+			sourceTree = "<group>";
+		};
+		077EA46C2296F24A00723446 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4762296FD1900723446 /* CityWeather */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		077EA46D2296F2E200723446 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4782296FDFB00723446 /* Protocols */,
+				077EA49F2297AB8300723446 /* Functions */,
+				077EA48F22971D8D00723446 /* Managers */,
+				077EA48A229715A700723446 /* Extensions */,
+				077EA4872297147600723446 /* Constants */,
+				077EA4772296FDED00723446 /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		077EA4712296FCF100723446 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				077EA47F22970D5C00723446 /* WAKCityWeatherRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		077EA4722296FCFB00723446 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				077EA47B2297002100723446 /* WAKCityWeatherModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		077EA4732296FD0500723446 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				077EA47D229707C600723446 /* WAKCityWeatherPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		077EA4742296FD0C00723446 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				077EA48322970E4600723446 /* WAKCityWeatherInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		077EA4752296FD1300723446 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				077EA48122970DA500723446 /* WAKCityWeatherViewController.swift */,
+				077EA4852297121700723446 /* WAKCityWeatherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		077EA4762296FD1900723446 /* CityWeather */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4752296FD1300723446 /* View */,
+				077EA4742296FD0C00723446 /* Interactor */,
+				077EA4732296FD0500723446 /* Presenter */,
+				077EA4722296FCFB00723446 /* Entity */,
+				077EA4712296FCF100723446 /* Router */,
+			);
+			path = CityWeather;
+			sourceTree = "<group>";
+		};
+		077EA4772296FDED00723446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4792296FE1D00723446 /* WAKBaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		077EA4782296FDFB00723446 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				077EA46E2296FCA000723446 /* WAKProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		077EA4872297147600723446 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4882297148100723446 /* WAKConstants.swift */,
+				077EA48D229719D700723446 /* WAKFonts.swift */,
+				077EA496229741D800723446 /* WAKEnums.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		077EA48A229715A700723446 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				077EA48B229715B800723446 /* UIView+FrameHelpers.swift */,
+				077EA4942297417F00723446 /* UIView+BasicAnimations.swift */,
+				077EA4922297411000723446 /* UIScrollView+FrameHelpers.swift */,
+				077EA4982297455F00723446 /* UIImageView+Loading.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		077EA48F22971D8D00723446 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				077EA49022971D9C00723446 /* WAKLocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		077EA49F2297AB8300723446 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				077EA4A02297AB9000723446 /* WAKFunctions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		D0C56D112C45A280451D089C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D5FBAAE39822920FF009DF8 /* Pods-WeatherApp-Kotai.debug.xcconfig */,
+				09B18BE85F9EC9E787489182 /* Pods-WeatherApp-Kotai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077EA4482296F21500723446 /* WeatherApp-Kotai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077EA4662296F21700723446 /* Build configuration list for PBXNativeTarget "WeatherApp-Kotai" */;
+			buildPhases = (
+				EA0264FD7284931BF8112A66 /* [CP] Check Pods Manifest.lock */,
+				077EA4452296F21500723446 /* Sources */,
+				077EA4462296F21500723446 /* Frameworks */,
+				077EA4472296F21500723446 /* Resources */,
+				826337EE03A3CC19794C429E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeatherApp-Kotai";
+			productName = "WeatherApp-Kotai";
+			productReference = 077EA4492296F21600723446 /* WeatherApp-Kotai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077EA45C2296F21700723446 /* WeatherApp-KotaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077EA4692296F21800723446 /* Build configuration list for PBXNativeTarget "WeatherApp-KotaiTests" */;
+			buildPhases = (
+				077EA4592296F21700723446 /* Sources */,
+				077EA45A2296F21700723446 /* Frameworks */,
+				077EA45B2296F21700723446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077EA45F2296F21700723446 /* PBXTargetDependency */,
+			);
+			name = "WeatherApp-KotaiTests";
+			productName = "WeatherApp-KotaiTests";
+			productReference = 077EA45D2296F21700723446 /* WeatherApp-KotaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077EA4412296F21500723446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = KCSI;
+				TargetAttributes = {
+					077EA4482296F21500723446 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					077EA45C2296F21700723446 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 077EA4482296F21500723446;
+					};
+				};
+			};
+			buildConfigurationList = 077EA4442296F21500723446 /* Build configuration list for PBXProject "WeatherApp-Kotai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077EA4402296F21500723446;
+			productRefGroup = 077EA44A2296F21600723446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077EA4482296F21500723446 /* WeatherApp-Kotai */,
+				077EA45C2296F21700723446 /* WeatherApp-KotaiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077EA4472296F21500723446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077EA49C22975FAE00723446 /* Main.storyboard in Resources */,
+				077EA4572296F21700723446 /* LaunchScreen.storyboard in Resources */,
+				077EA4542296F21700723446 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077EA45B2296F21700723446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		826337EE03A3CC19794C429E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeatherApp-Kotai/Pods-WeatherApp-Kotai-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherApp-Kotai/Pods-WeatherApp-Kotai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0264FD7284931BF8112A66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApp-Kotai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077EA4452296F21500723446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077EA48222970DA500723446 /* WAKCityWeatherViewController.swift in Sources */,
+				077EA4992297455F00723446 /* UIImageView+Loading.swift in Sources */,
+				077EA49122971D9C00723446 /* WAKLocationManager.swift in Sources */,
+				077EA4A12297AB9000723446 /* WAKFunctions.swift in Sources */,
+				077EA48022970D5C00723446 /* WAKCityWeatherRouter.swift in Sources */,
+				077EA4892297148100723446 /* WAKConstants.swift in Sources */,
+				077EA497229741D800723446 /* WAKEnums.swift in Sources */,
+				077EA47A2296FE1D00723446 /* WAKBaseModel.swift in Sources */,
+				077EA44D2296F21600723446 /* AppDelegate.swift in Sources */,
+				077EA48C229715B800723446 /* UIView+FrameHelpers.swift in Sources */,
+				077EA47C2297002100723446 /* WAKCityWeatherModel.swift in Sources */,
+				077EA4862297121700723446 /* WAKCityWeatherView.swift in Sources */,
+				077EA48422970E4600723446 /* WAKCityWeatherInteractor.swift in Sources */,
+				077EA4952297417F00723446 /* UIView+BasicAnimations.swift in Sources */,
+				077EA47E229707C600723446 /* WAKCityWeatherPresenter.swift in Sources */,
+				077EA48E229719D700723446 /* WAKFonts.swift in Sources */,
+				077EA46F2296FCA000723446 /* WAKProtocols.swift in Sources */,
+				077EA4932297411000723446 /* UIScrollView+FrameHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077EA4592296F21700723446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077EA4622296F21700723446 /* WeatherApp_KotaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077EA45F2296F21700723446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077EA4482296F21500723446 /* WeatherApp-Kotai */;
+			targetProxy = 077EA45E2296F21700723446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077EA4552296F21700723446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077EA4562296F21700723446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		077EA49A22975FAE00723446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077EA49B22975FAE00723446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077EA4642296F21700723446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077EA4652296F21700723446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077EA4672296F21700723446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5FBAAE39822920FF009DF8 /* Pods-WeatherApp-Kotai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZG9A58SGG;
+				INFOPLIST_FILE = "WeatherApp-Kotai/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCSI.WeatherApp-Kotai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077EA4682296F21700723446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B18BE85F9EC9E787489182 /* Pods-WeatherApp-Kotai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZG9A58SGG;
+				INFOPLIST_FILE = "WeatherApp-Kotai/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCSI.WeatherApp-Kotai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		077EA46A2296F21800723446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZG9A58SGG;
+				INFOPLIST_FILE = "WeatherApp-KotaiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCSI.WeatherApp-KotaiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherApp-Kotai.app/WeatherApp-Kotai";
+			};
+			name = Debug;
+		};
+		077EA46B2296F21800723446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZG9A58SGG;
+				INFOPLIST_FILE = "WeatherApp-KotaiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCSI.WeatherApp-KotaiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherApp-Kotai.app/WeatherApp-Kotai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077EA4442296F21500723446 /* Build configuration list for PBXProject "WeatherApp-Kotai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077EA4642296F21700723446 /* Debug */,
+				077EA4652296F21700723446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077EA4662296F21700723446 /* Build configuration list for PBXNativeTarget "WeatherApp-Kotai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077EA4672296F21700723446 /* Debug */,
+				077EA4682296F21700723446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077EA4692296F21800723446 /* Build configuration list for PBXNativeTarget "WeatherApp-KotaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077EA46A2296F21800723446 /* Debug */,
+				077EA46B2296F21800723446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077EA4412296F21500723446 /* Project object */;
+}
